@@ -1,0 +1,71 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f0f0; /* Optional background color */
+  }
+  
+  .card {
+    max-width: auto; /* Adjust as needed for your medium-sized card */
+    padding: 150px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    border-radius: 8px;
+    text-align: center;
+    position: relative; /* Add this to position the image absolutely */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a light shadow frame */
+  }
+  
+  .image-style {
+    position: absolute; /* Add this to position the image absolutely */
+    top: 50; /* Adjust to your liking */
+    left: 215px; /* Adjust to your liking */
+    width: 300px; /* Adjust to your liking */
+    height: 400px; /* Adjust to your liking */
+    border-radius: 8px; /* Add a slight border radius */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+
+  .title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: -100px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #333;
+    font-weight: lighter;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 2px solid #ddd; /* Light gray color */
+    margin: 25px 0; /* Add some margin top and bottom */
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1); /* Add a light shadow effect */
+  }
+  
+  .rating {
+    position: absolute;
+    bottom: 10px; /* Adjusted bottom position to 10px */
+    right: 20px;
+    background-color: #007bff; /* Blue background */
+    color: #ffffff; /* White text */
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
